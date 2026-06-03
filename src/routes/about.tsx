@@ -58,7 +58,7 @@ function AboutPage() {
         <div className="container-x">
           <div className="text-center max-w-2xl mx-auto" data-aos="fade-up">
             <p className="text-primary text-xs uppercase tracking-[0.3em] font-bold">What We Stand For</p>
-            <h2 className="text-4xl md:text-5xl font-black mt-3">Mission. Vision. Values.</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mt-3">Mission. Vision. Values.</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 mt-14">
             {values.map((v, i) => (
@@ -78,7 +78,7 @@ function AboutPage() {
         <div className="container-x max-w-4xl">
           <div className="text-center" data-aos="fade-up">
             <p className="text-primary text-xs uppercase tracking-[0.3em] font-bold">The Journey</p>
-            <h2 className="text-4xl md:text-5xl font-black mt-3">15 years of forging excellence.</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mt-3">15 years of forging excellence.</h2>
           </div>
           <div className="relative mt-16 pl-8 md:pl-0">
             <div className="absolute left-3 md:left-1/2 top-0 bottom-0 w-px bg-border" />

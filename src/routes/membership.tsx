@@ -61,7 +61,7 @@ function MembershipPage() {
 
           {/* Comparison table */}
           <div className="mt-20" data-aos="fade-up">
-            <h2 className="text-3xl md:text-4xl font-black text-center">Compare features</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-center">Compare features</h2>
             <div className="mt-10 overflow-x-auto glass rounded-2xl">
               <table className="w-full text-sm">
                 <thead>

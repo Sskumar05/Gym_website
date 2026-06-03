@@ -50,7 +50,7 @@ function ServicesPage() {
           </div>
 
           <div className="mt-20 text-center" data-aos="zoom-in">
-            <h3 className="text-3xl md:text-4xl font-black">Not sure where to start?</h3>
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-black">Not sure where to start?</h3>
             <p className="mt-3 text-muted-foreground normal-case">Book a free consultation — we'll match you to the right program in 15 minutes.</p>
             <Link to="/contact" className="btn-primary mt-6">Book Consultation <ArrowRight className="size-4" /></Link>
           </div>

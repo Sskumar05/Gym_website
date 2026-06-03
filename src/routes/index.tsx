@@ -66,7 +66,7 @@ function Home() {
             #1 Premium Fitness Brand
           </motion.div>
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}
-            className="text-6xl md:text-8xl lg:text-9xl font-black leading-[0.9] max-w-5xl">
+            className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-black leading-[0.9] max-w-5xl">
             FORGE YOUR <span className="text-gradient">STRONGEST</span> SELF.
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}
@@ -101,7 +101,7 @@ function Home() {
         <div className="container-x">
           <div className="text-center max-w-2xl mx-auto" data-aos="fade-up">
             <p className="text-primary text-xs uppercase tracking-[0.3em] font-bold">Why Claw Fitness</p>
-            <h2 className="text-4xl md:text-6xl font-black mt-3">Built for those who refuse to settle.</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-black mt-3">Built for those who refuse to settle.</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-16">
             {features.map((f, i) => (
@@ -130,7 +130,7 @@ function Home() {
           </div>
           <div data-aos="fade-left">
             <p className="text-primary text-xs uppercase tracking-[0.3em] font-bold">About Claw Fitness</p>
-            <h2 className="text-4xl md:text-5xl font-black mt-3">More than a gym. A standard.</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mt-3">More than a gym. A standard.</h2>
             <p className="mt-6 text-muted-foreground leading-relaxed normal-case">
               Claw Fitness was built on a single belief: strength is earned. From our 30,000 sq.ft. flagship floor to our elite coaching roster, every detail exists to push you past your comfort zone — safely, intelligently, and relentlessly.
             </p>
@@ -150,7 +150,7 @@ function Home() {
           <div className="flex flex-wrap items-end justify-between gap-6" data-aos="fade-up">
             <div>
               <p className="text-primary text-xs uppercase tracking-[0.3em] font-bold">Meet The Team</p>
-              <h2 className="text-4xl md:text-6xl font-black mt-3">Coaches who get results.</h2>
+              <h2 className="text-3xl sm:text-4xl md:text-6xl font-black mt-3">Coaches who get results.</h2>
             </div>
             <Link to="/trainers" className="btn-outline">All Trainers</Link>
           </div>
@@ -177,7 +177,7 @@ function Home() {
         <div className="container-x">
           <div className="text-center max-w-2xl mx-auto" data-aos="fade-up">
             <p className="text-primary text-xs uppercase tracking-[0.3em] font-bold">Membership</p>
-            <h2 className="text-4xl md:text-6xl font-black mt-3">Choose your battle plan.</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-black mt-3">Choose your battle plan.</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-3 mt-14">
             {plans.map((p, i) => (
@@ -206,7 +206,7 @@ function Home() {
         <div className="container-x">
           <div className="text-center max-w-2xl mx-auto" data-aos="fade-up">
             <p className="text-primary text-xs uppercase tracking-[0.3em] font-bold">Real Stories</p>
-            <h2 className="text-4xl md:text-6xl font-black mt-3">Forged in the gym. Proven in life.</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-black mt-3">Forged in the gym. Proven in life.</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-3 mt-14">
             {testimonials.map((t, i) => (
@@ -230,7 +230,7 @@ function Home() {
           <div data-aos="zoom-in" className="relative overflow-hidden rounded-3xl p-12 md:p-20 text-center glass">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-primary-glow/10" />
             <div className="relative">
-              <h2 className="text-4xl md:text-6xl font-black max-w-3xl mx-auto">Your transformation starts the day you stop waiting.</h2>
+              <h2 className="text-3xl sm:text-4xl md:text-6xl font-black max-w-3xl mx-auto">Your transformation starts the day you stop waiting.</h2>
               <p className="mt-6 text-muted-foreground max-w-xl mx-auto normal-case">Book a free trial day. Tour the floor. Train with a coach. No pressure — just proof.</p>
               <div className="mt-10 flex flex-wrap justify-center gap-4">
                 <Link to="/membership" className="btn-primary">Start Free Trial <ArrowRight className="size-4" /></Link>
