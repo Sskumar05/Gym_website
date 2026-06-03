@@ -6,9 +6,9 @@ import { Target, Eye, Heart, Award } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About IRONFORGE — Our Story, Mission & Values" },
-      { name: "description", content: "Inside IRONFORGE: a 15-year journey of building elite fitness experiences, premium facilities and a community that forges champions." },
-      { property: "og:title", content: "About IRONFORGE" },
+      { title: "About Claw Fitness — Our Story, Mission & Values" },
+      { name: "description", content: "Inside Claw Fitness: a 15-year journey of building elite fitness experiences, premium facilities and a community that forges champions." },
+      { property: "og:title", content: "About Claw Fitness" },
       { property: "og:description", content: "Our mission, vision and the philosophy behind a world-class gym brand." },
       { property: "og:url", content: "/about" },
     ],
@@ -48,7 +48,7 @@ function AboutPage() {
               We don't sell memberships. We sell discipline, results, and a place where serious people train next to other serious people. Every coach is hand-picked. Every machine is commercial-grade. Every program is engineered around science, not trends.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed normal-case">
-              Whether you're chasing your first pull-up or your first 500 lb deadlift, IRONFORGE meets you where you are — and refuses to let you stay there.
+              Whether you're chasing your first pull-up or your first 500 lb deadlift, Claw Fitness meets you where you are — and refuses to let you stay there.
             </p>
           </div>
         </div>

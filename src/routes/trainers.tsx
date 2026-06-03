@@ -9,9 +9,9 @@ import trainer4 from "@/assets/trainer4.jpg";
 export const Route = createFileRoute("/trainers")({
   head: () => ({
     meta: [
-      { title: "Elite Trainers — IRONFORGE Coaches" },
-      { name: "description", content: "Meet the hand-picked, internationally certified IRONFORGE coaches behind thousands of transformations." },
-      { property: "og:title", content: "IRONFORGE Trainers" },
+      { title: "Elite Trainers — Claw Fitness Coaches" },
+      { name: "description", content: "Meet the hand-picked, internationally certified Claw Fitness coaches behind thousands of transformations." },
+      { property: "og:title", content: "Claw Fitness Trainers" },
       { property: "og:description", content: "Elite coaches. Real expertise. Lifetime results." },
       { property: "og:url", content: "/trainers" },
     ],

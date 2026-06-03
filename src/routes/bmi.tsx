@@ -7,7 +7,7 @@ import { Ruler, Weight, Sparkles } from "lucide-react";
 export const Route = createFileRoute("/bmi")({
   head: () => ({
     meta: [
-      { title: "BMI Calculator — IRONFORGE" },
+      { title: "BMI Calculator — Claw Fitness" },
       { name: "description", content: "Calculate your Body Mass Index instantly with our interactive BMI calculator. Get personalized fitness recommendations." },
       { property: "og:title", content: "BMI Calculator" },
       { property: "og:description", content: "Find your BMI and get personalized fitness tips." },

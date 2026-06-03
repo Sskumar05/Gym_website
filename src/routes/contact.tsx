@@ -7,9 +7,9 @@ import { Phone, Mail, MapPin, Clock, Send, MessageCircle, Instagram, Facebook, Y
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact IRONFORGE — Visit, Call or Message" },
+      { title: "Contact Claw Fitness — Visit, Call or Message" },
       { name: "description", content: "Visit our flagship facility, send us a message, or reach out on WhatsApp. We're here 7 days a week." },
-      { property: "og:title", content: "Contact IRONFORGE" },
+      { property: "og:title", content: "Contact Claw Fitness" },
       { property: "og:description", content: "Get in touch. Book a tour. Start your transformation." },
       { property: "og:url", content: "/contact" },
     ],
@@ -54,9 +54,9 @@ function ContactPage() {
           {/* Info */}
           <div className="space-y-4" data-aos="fade-right">
             {[
-              { icon: Phone, label: "Phone", value: "+1 (555) 010-2030", href: "tel:+15550102030" },
-              { icon: Mail, label: "Email", value: "hello@ironforge.fit", href: "mailto:hello@ironforge.fit" },
-              { icon: MapPin, label: "Location", value: "220 Forge Avenue, Downtown" },
+              { icon: Phone, label: "Phone", value: "+91 7459995999", href: "tel:+91 7459995999" },
+              { icon: Mail, label: "Email", value: "hello@clawfitness.com", href: "mailto:hello@clawfitness.com" },
+              { icon: MapPin, label: "Location", value: "165, Vinayagar kovil st, Bharathidasan nagar, Sivaprakasam nagar, Surapet, Chennai, India 600066" },
               { icon: Clock, label: "Hours", value: "Mon–Sun · 5:00 AM – 11:00 PM" },
             ].map(({ icon: Icon, label, value, href }) => (
               <a key={label} href={href ?? "#"} className="block glass rounded-2xl p-5 hover:border-primary/50 transition">
@@ -121,7 +121,7 @@ function ContactPage() {
         <div className="container-x mt-10" data-aos="fade-up">
           <div className="rounded-3xl overflow-hidden border border-border h-[420px]">
             <iframe
-              title="IRONFORGE Location"
+              title="Claw Fitness Location"
               src="https://www.openstreetmap.org/export/embed.html?bbox=-74.02%2C40.70%2C-73.96%2C40.74&layer=mapnik"
               className="w-full h-full grayscale invert opacity-90"
               loading="lazy"

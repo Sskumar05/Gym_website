@@ -12,9 +12,9 @@ import { Counter } from "@/components/site/Counter";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "IRONFORGE — Forge Your Strongest Self" },
+      { title: "CLAW FITNESS — Forge Your Strongest Self" },
       { name: "description", content: "Premium fitness brand with elite trainers, world-class equipment and personalized programs for strength, weight loss and transformation." },
-      { property: "og:title", content: "IRONFORGE — Forge Your Strongest Self" },
+      { property: "og:title", content: "CLAW FITNESS — Forge Your Strongest Self" },
       { property: "og:description", content: "Join the most premium fitness experience. Elite coaches, smart programs, real results." },
       { property: "og:url", content: "/" },
     ],
@@ -47,7 +47,7 @@ const plans = [
 
 const testimonials = [
   { name: "Sarah K.", text: "Lost 28 lbs in 4 months. The coaching is unmatched — they actually care about your progress.", rating: 5 },
-  { name: "James L.", text: "Added 80 lbs to my deadlift in one year. IRONFORGE is the real deal.", rating: 5 },
+  { name: "James L.", text: "Added 80 lbs to my deadlift in one year. Claw Fitness is the real deal.", rating: 5 },
   { name: "Priya M.", text: "Best fitness investment I've made. The atmosphere alone keeps me showing up.", rating: 5 },
 ];
 
@@ -100,7 +100,7 @@ function Home() {
       <section className="section-padding noise-bg">
         <div className="container-x">
           <div className="text-center max-w-2xl mx-auto" data-aos="fade-up">
-            <p className="text-primary text-xs uppercase tracking-[0.3em] font-bold">Why IRONFORGE</p>
+            <p className="text-primary text-xs uppercase tracking-[0.3em] font-bold">Why Claw Fitness</p>
             <h2 className="text-4xl md:text-6xl font-black mt-3">Built for those who refuse to settle.</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-16">
@@ -129,10 +129,10 @@ function Home() {
             </div>
           </div>
           <div data-aos="fade-left">
-            <p className="text-primary text-xs uppercase tracking-[0.3em] font-bold">About IRONFORGE</p>
+            <p className="text-primary text-xs uppercase tracking-[0.3em] font-bold">About Claw Fitness</p>
             <h2 className="text-4xl md:text-5xl font-black mt-3">More than a gym. A standard.</h2>
             <p className="mt-6 text-muted-foreground leading-relaxed normal-case">
-              IRONFORGE was built on a single belief: strength is earned. From our 30,000 sq.ft. flagship floor to our elite coaching roster, every detail exists to push you past your comfort zone — safely, intelligently, and relentlessly.
+              Claw Fitness was built on a single belief: strength is earned. From our 30,000 sq.ft. flagship floor to our elite coaching roster, every detail exists to push you past your comfort zone — safely, intelligently, and relentlessly.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-4">
               {["Premium Facility", "Elite Coaching", "Smart Programming", "Real Community"].map((t) => (

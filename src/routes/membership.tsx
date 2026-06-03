@@ -5,9 +5,9 @@ import { Check, X, ArrowRight } from "lucide-react";
 export const Route = createFileRoute("/membership")({
   head: () => ({
     meta: [
-      { title: "Membership Plans — IRONFORGE" },
+      { title: "Membership Plans — Claw Fitness" },
       { name: "description", content: "Flexible monthly, quarterly, half-yearly and annual plans. Pick the membership that matches your commitment." },
-      { property: "og:title", content: "IRONFORGE Membership" },
+      { property: "og:title", content: "Claw Fitness Membership" },
       { property: "og:description", content: "Premium fitness memberships built for every level of commitment." },
       { property: "og:url", content: "/membership" },
     ],
@@ -35,7 +35,7 @@ const featureMatrix = [
 function MembershipPage() {
   return (
     <>
-      <PageHero eyebrow="Membership" title="Pick your commitment level." subtitle="Every plan unlocks the full IRONFORGE experience. Longer commitments unlock deeper coaching." />
+      <PageHero eyebrow="Membership" title="Pick your commitment level." subtitle="Every plan unlocks the full Claw Fitness experience. Longer commitments unlock deeper coaching." />
 
       <section className="section-padding">
         <div className="container-x">

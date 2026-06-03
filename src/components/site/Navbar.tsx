@@ -36,7 +36,7 @@ export function Navbar() {
           <div className="size-9 rounded-md bg-gradient-to-br from-primary to-primary-glow grid place-items-center shadow-[var(--shadow-glow)]">
             <Dumbbell className="size-5 text-primary-foreground" />
           </div>
-          <span className="font-display text-xl tracking-wider">IRON<span className="text-primary">FORGE</span></span>
+          <span className="font-display text-xl tracking-wider">CLAW<span className="text-primary"> FITNESS</span></span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">

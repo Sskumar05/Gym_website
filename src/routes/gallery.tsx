@@ -15,9 +15,9 @@ import hero from "@/assets/hero.jpg";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — Inside IRONFORGE" },
-      { name: "description", content: "Step inside IRONFORGE — premium equipment, intense training sessions, and member transformations." },
-      { property: "og:title", content: "IRONFORGE Gallery" },
+      { title: "Gallery — Inside Claw Fitness" },
+      { name: "description", content: "Step inside Claw Fitness — premium equipment, intense training sessions, and member transformations." },
+      { property: "og:title", content: "Claw Fitness Gallery" },
       { property: "og:description", content: "Premium facility, intense training, real members." },
       { property: "og:url", content: "/gallery" },
     ],

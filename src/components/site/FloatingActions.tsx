@@ -25,11 +25,11 @@ export function FloatingActions() {
       </div>
 
       <div className="fixed right-5 bottom-5 z-50 flex flex-col gap-3">
-        <a href="https://wa.me/15550102030" target="_blank" rel="noreferrer"
+        <a href="https://wa.me/+917459995999" target="_blank" rel="noreferrer"
           className="size-12 rounded-full grid place-items-center bg-[#25D366] text-white shadow-lg hover:scale-110 transition" aria-label="WhatsApp">
           <MessageCircle className="size-5" />
         </a>
-        <a href="tel:+15550102030"
+        <a href="tel:+917459995999"
           className="size-12 rounded-full grid place-items-center bg-gradient-to-br from-primary to-primary-glow text-primary-foreground shadow-[var(--shadow-glow)] hover:scale-110 transition" aria-label="Call">
           <Phone className="size-5" />
         </a>

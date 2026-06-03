@@ -5,9 +5,9 @@ import { Flame, TrendingDown, TrendingUp, Dumbbell, Activity, Heart, User, Apple
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services & Programs — IRONFORGE" },
+      { title: "Services & Programs — Claw Fitness" },
       { name: "description", content: "Strength training, fat loss, hypertrophy, personal coaching, nutrition and group fitness — every program engineered for measurable results." },
-      { property: "og:title", content: "IRONFORGE Services" },
+      { property: "og:title", content: "Claw Fitness Services" },
       { property: "og:description", content: "Premium training programs for every goal." },
       { property: "og:url", content: "/services" },
     ],
@@ -30,7 +30,7 @@ const services = [
 function ServicesPage() {
   return (
     <>
-      <PageHero eyebrow="What We Do" title="Programs engineered for results." subtitle="Every service at IRONFORGE is built on the same standard — measurable progress, no fluff." />
+      <PageHero eyebrow="What We Do" title="Programs engineered for results." subtitle="Every service at Claw Fitness is built on the same standard — measurable progress, no fluff." />
 
       <section className="section-padding">
         <div className="container-x">
