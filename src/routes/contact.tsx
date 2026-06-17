@@ -93,19 +93,19 @@ function ContactPage() {
                 <div key={k}>
                   <label className="text-xs uppercase tracking-wider text-muted-foreground">{l}</label>
                   <input type={t} value={(form as any)[k]} onChange={e => setForm({ ...form, [k]: e.target.value })}
-                    className="mt-1 w-full bg-surface border border-border rounded-xl px-4 py-3 focus:border-primary outline-none normal-case" />
+                    className="mt-1 w-full text-base bg-surface border border-border rounded-xl px-4 py-3 focus:border-primary outline-none normal-case" />
                   {errors[k] && <p className="text-xs text-destructive mt-1 normal-case">{errors[k]}</p>}
                 </div>
               ))}
               <div className="sm:col-span-2">
                 <label className="text-xs uppercase tracking-wider text-muted-foreground">Phone (optional)</label>
                 <input value={form.phone} onChange={e => setForm({ ...form, phone: e.target.value })}
-                  className="mt-1 w-full bg-surface border border-border rounded-xl px-4 py-3 focus:border-primary outline-none normal-case" />
+                  className="mt-1 w-full text-base bg-surface border border-border rounded-xl px-4 py-3 focus:border-primary outline-none normal-case" />
               </div>
               <div className="sm:col-span-2">
                 <label className="text-xs uppercase tracking-wider text-muted-foreground">Message</label>
                 <textarea rows={5} value={form.message} onChange={e => setForm({ ...form, message: e.target.value })}
-                  className="mt-1 w-full bg-surface border border-border rounded-xl px-4 py-3 focus:border-primary outline-none normal-case resize-none" />
+                  className="mt-1 w-full text-base bg-surface border border-border rounded-xl px-4 py-3 focus:border-primary outline-none normal-case resize-none" />
                 {errors.message && <p className="text-xs text-destructive mt-1 normal-case">{errors.message}</p>}
               </div>
               <div className="sm:col-span-2 flex flex-wrap items-center gap-4">
