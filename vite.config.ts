@@ -41,7 +41,7 @@ export default defineConfig({
     // Allow Vite preview (used by `npm start` → `npm run preview`) to accept requests
     // from the public Render domain.
     preview: {
-      allowedHosts: ["https://gym-website-pz78.onrender.com"],
+      allowedHosts: ["gym-website-pz78.onrender.com"],
     },
 
     // Ensure the dev/preview server binds to 0.0.0.0 so external hosts are reachable.
